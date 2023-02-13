@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+
+  background: linear-gradient(to right, #29323c, #485563 50%);
+  height: 100%;
+  display: flex;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+}
+
+.mainimage {
+  border-radius: 100%;
+  width: 125px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.imageball {
+  border-radius: 100%;
+  background: #abbaab;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ffffff, #abbaab);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ffffff, #abbaab);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 36px;
+  width: 150px;
+  height: 150px;
+}
+
+header h4 {
+  margin-bottom: 45px;
+  font-family: 'Source Code Pro', monospace;
+
+
+}
+
+header ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 20px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+header li {
+
+  list-style: none;
+  font-size: 17px;
+  color: aliceblue;
+  cursor: pointer;
+
+
+
+}
+
+header a {
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to left, #29323c, #485563);
+  height: 100vh;
+  width: 220px;
+  padding-top: 30px;
+  align-items: center;
+  text-align: center;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+
+}
+
+main {
+  position: fixed;
+}
+
+.git {
+  background: none;
+
+
+}
+
+.contatos img {
+  object-fit: contain;
+  width: 20px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.contatos {
+  padding-top: 30px;
+}
+
+section {
+  background-image: url('./images/backmain.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  color: aliceblue;
+  align-items: center;
+}
+
+.pUm {
+  font-size: 25px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.pDois {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+
+
+}
+
+.pTres {
+  font-size: 20px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+section spam {
+  color: red;
+}
+
+section h1 {
+  letter-spacing: 2px;
+
+
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background: aliceblue;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
