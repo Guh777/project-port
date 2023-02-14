@@ -16,3 +16,4 @@ function voltaaonormal() {
   const botao = document.getElementById('botao')
   botao.style.borderRadius = '10px'
 }
+
