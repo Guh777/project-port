@@ -27,11 +27,11 @@ h4 {
 .imageball {
   border-radius: 100%;
   background: #abbaab;
-  /* fallback for old browsers */
+
   background: -webkit-linear-gradient(to left, #ffffff, #abbaab);
-  /* Chrome 10-25, Safari 5.1-6 */
+
   background: linear-gradient(to left, #ffffff, #abbaab);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   margin-bottom: 36px;
   width: 150px;
   height: 150px;
@@ -153,4 +153,8 @@ button {
   border: none;
   border-radius: 10px;
   transition: 0.5s;
+}
+
+::selection {
+  background: none;
 }
