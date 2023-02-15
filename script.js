@@ -9,7 +9,7 @@ function padrao() {
 
 }
 
-
+a
 
 
 function voltaaonormal() {

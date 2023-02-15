@@ -69,8 +69,7 @@ header a {
   cursor: pointer;
 }
 
-
-header {
+a header {
   display: flex;
   flex-direction: column;
   background: linear-gradient(to left, #29323c, #485563);
