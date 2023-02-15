@@ -9,7 +9,15 @@ function padrao() {
 
 }
 
-a
+function animation(event) {
+  event.preventDefault();
+  const target = event.target;
+  const secao = document.querySelector(target.getAttribute('href'));
+
+  secao.scrollIntoView({
+    behavior: 'smooth'
+  });
+};
 
 
 function voltaaonormal() {
