@@ -8,8 +8,7 @@
 
 body {
 
-  background: linear-gradient(to right, #29323c, #485563 50%);
-  height: 100vh;
+  background: goldenrod;
   display: flex;
 
 }
@@ -34,37 +33,22 @@ body {
 
 }
 
-h4 {
-  font-family: 'Poppins', sans-serif;
-  color: aliceblue;
-}
+
 
 .mainimage {
   border-radius: 100%;
   width: 125px;
-  height: 150px;
-  object-fit: contain;
-}
-
-.imageball {
-  border-radius: 100%;
-  background: #abbaab;
-
-  background: -webkit-linear-gradient(to left, #ffffff, #abbaab);
-
-  background: linear-gradient(to left, #ffffff, #abbaab);
-
+  height: 125px;
+  border: aliceblue solid 1px;
   margin-bottom: 36px;
-  width: 150px;
-  height: 150px;
-
 }
+
+
 
 header h4 {
   margin-bottom: 45px;
   font-family: 'Source Code Pro', monospace;
-
-
+  color: aliceblue;
 }
 
 header ul {
@@ -95,9 +79,9 @@ header a {
 header {
   display: flex;
   background-size: cover;
-
+  z-index: 1000;
   flex-direction: column;
-  background: linear-gradient(to left, #29323c, #485563);
+  background: #333333;
   height: auto;
   width: 220px;
   padding-top: 30px;
@@ -153,7 +137,7 @@ header {
 
 
 section spam {
-  color: red;
+  color: goldenrod;
 }
 
 section h1 {
@@ -187,8 +171,13 @@ button {
   height: auto;
 }
 
-.section1 {
+
+
+.sections {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+
 }
 
 #home {
@@ -207,4 +196,55 @@ button {
   animation: 1s;
   background-size: cover;
 
+}
+
+
+
+#sobre {
+
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  padding: 15px;
+  width: 100%;
+  background: #252525;
+  color: aliceblue;
+  align-items: center;
+  border-radius: 200px;
+  -webkit-box-shadow: 0px 0px 74px 33px rgba(0, 0, 0, 0.84);
+  -moz-box-shadow: 0px 0px 74px 33px rgba(0, 0, 0, 0.84);
+  box-shadow: 0px 0px 74px 33px rgba(0, 0, 0, 0.84);
+
+
+}
+
+
+#sobre h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: goldenrod;
+  ;
+}
+
+#sobre h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#sobre p {
+  margin-top: 10px;
+  max-width: 800px;
+  color: aliceblue;
+
+}
+
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#sobre h3 span {
+  color: goldenrod;
 }
